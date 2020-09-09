@@ -1,0 +1,9 @@
+1. Select * from Customer
+2. Select product_name, category  from product where price between 5000 and 10000
+3. Select * from product ORDER BY price DESC
+4. Select count(*) , AVG(total_amount), MAX( total_amount ) , MIN(total_amount) from orders
+5. Select customer_id from customer and Orders ON customer.customer_id=Orders.customer_id  where quantity > 2
+6. Select count(OrderDate) from Orders where OrderDate = "2020"
+7. Select product_name,customer_name,OrderDate from Customer c and Orders o Product p ON c.customer_id=o.customer_id AND p.Product_id=o.Product_id where o.o.Product_id=True
+8. Select * From Orders where OderDate = NOW() - INTERVAL 3 MONTH
+9. Select customer_id From Customer c and Orders o and Product p where  c.customer_id=o.customer_id AND p.Product_id=o.Product_id Where o.Product_id=NULL
